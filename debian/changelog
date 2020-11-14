@@ -1,5 +1,5 @@
-hello (2.19-1) unstable; urgency=medium
+hello (2.19-1) focal; urgency=medium
 
-  * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+  * Initial release
 
  -- Nylon Chen <Nylon7717@gmail.com>  Sat, 14 Nov 2020 13:57:44 +0800
