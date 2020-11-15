@@ -21,6 +21,11 @@ override_dh_auto_clean:
 	./configure
 	make distclean
 
+override_dh_auto_install:
+	mkdir -p "debian/hello/usr/bin"
+	cp hello "debian/hello/usr/bin/hello"
+	cp debain/testing.sh "debian/hello/usr/bin/"
+
 # dh_make generated override targets
 # This is example for Cmake (See https://bugs.debian.org/641051 )
 #override_dh_auto_configure:
